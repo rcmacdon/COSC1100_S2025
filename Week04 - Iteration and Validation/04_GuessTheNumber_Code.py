@@ -71,7 +71,7 @@ while play_again:
         # ----------  END OF GUESSING LOOP
 
     # Ask user if they want to play again?
-    play_again = input("Do you want to play again (y or n)?")[0].lower().strip() == "y"
+    play_again = input("Do you want to play again (y or n)?").lower().strip()[0] == "y"
 
     # ------------ END OF THE PLAYING LOOP
 

@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.4">
+  <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
+    <mxGraphModel dx="1205" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W83s1KIgSOuftTIMo_pd-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-1" target="W83s1KIgSOuftTIMo_pd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-1" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-2" target="W83s1KIgSOuftTIMo_pd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-2" value="Starting Height" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-3" target="W83s1KIgSOuftTIMo_pd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-3" value="Time Interval" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-4" value="Is it a number?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-5" value="NO" style="endArrow=classic;html=1;rounded=0;exitX=0.92;exitY=0.53;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-4" target="W83s1KIgSOuftTIMo_pd-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="360" as="sourcePoint" />
+            <mxPoint x="650" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="330" />
+              <mxPoint x="350" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-8" value="YES" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.39;entryY=0.283;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-4" target="W83s1KIgSOuftTIMo_pd-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="360" as="sourcePoint" />
+            <mxPoint x="650" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-11" value="Is it a number?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="610" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-12" value="NO" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.02;exitY=0.44;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-11" target="W83s1KIgSOuftTIMo_pd-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="360" as="sourcePoint" />
+            <mxPoint x="650" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-13" value="YES" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.57;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="360" as="sourcePoint" />
+            <mxPoint x="490" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-15" target="W83s1KIgSOuftTIMo_pd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-15" value="Initialize and then Drop The Item" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-16" target="W83s1KIgSOuftTIMo_pd-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-16" value="Increment Time" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-18" target="W83s1KIgSOuftTIMo_pd-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-18" value="Calculate object position" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-19" target="W83s1KIgSOuftTIMo_pd-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-19" value="Print Location and Time" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-26" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-20" target="W83s1KIgSOuftTIMo_pd-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-20" value="Did it hit the ground?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-24" value="NO" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-20" target="W83s1KIgSOuftTIMo_pd-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="360" as="sourcePoint" />
+            <mxPoint x="650" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-25" target="W83s1KIgSOuftTIMo_pd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-25" value="Calculate Exact time it should have taken" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="640" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-27" target="W83s1KIgSOuftTIMo_pd-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-27" value="Print Result" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="635" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-29" value="Play Again?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="610" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-31" value="NO" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.44;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-29" target="W83s1KIgSOuftTIMo_pd-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="370" as="sourcePoint" />
+            <mxPoint x="1010" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-32" value="YES" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W83s1KIgSOuftTIMo_pd-29" target="W83s1KIgSOuftTIMo_pd-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="370" as="sourcePoint" />
+            <mxPoint x="650" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="950" y="30" />
+              <mxPoint x="420" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-33" value="EXIT" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="960" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W83s1KIgSOuftTIMo_pd-34" value="Clint MacDonald&lt;div&gt;June 9, 2025&lt;/div&gt;&lt;div&gt;Sample Flowchart&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="100" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
