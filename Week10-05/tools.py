@@ -82,7 +82,7 @@ def getRandIntRange(min: int, max: int):
 def getRandFloatRange(min: float, max: float, numDec: int):
     '''generate a random float within the specified range'''
     rnd = random.randint(min * (10 ** numDec), max * (10 ** numDec)) / (10**numDec)
-    pass
+    return rnd
 
 
 #endregion
