@@ -22,7 +22,7 @@ def getStringFromUser(prompt):
 
 def getPositiveIntegerFromUser(prompt):
     try:
-        return int(input(prompt))
+        return int(input(prompt).strip())
     except ValueError as v:
         return -1
     
