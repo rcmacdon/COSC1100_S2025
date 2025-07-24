@@ -27,7 +27,7 @@ def btnGo_Click():
 
 def escape_key():
     result = messagebox.askyesno("Quit", "Do you want to quit?")
-    if result == True:  # if the user clicked 'OK'
+    if result == True:  # if the user clicked 'Yes'
         myWindow.quit()
 #endregion
 
