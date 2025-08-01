@@ -107,10 +107,6 @@ def load_data():
     items.sort()
     for item in items:
         lbxAvailable.insert(tk.END, item)
-        
-
-
-
 
 
 def main():
